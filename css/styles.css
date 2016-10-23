@@ -1,0 +1,167 @@
+html, body {
+  min-height: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  background: url(../images/wallpaper-95690.jpg); }
+
+#play, #level {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+  z-index: 2px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  cursor: pointer; }
+
+#play {
+  display: block; }
+
+#level {
+  text-align: center;
+  font-size: 60px;
+  font-family: arial;
+  font-weight: bold;
+  color: #EEE;
+  display: none; }
+
+#main-circle {
+  background: url(../images/central_circle.png) center center;
+  width: 260px;
+  height: 260px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -130px;
+  margin-left: -130px;
+  display: -moz-box;
+  /* Firefox */
+  display: -webkit-box;
+  /* Safari and Chrome */
+  display: -ms-flexbox;
+  /* Internet Explorer 10 */
+  display: box;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  z-index: 1px; }
+
+#side1 {
+  -moz-box-flex: 1.0;
+  /* Firefox */
+  -webkit-box-flex: 1.0;
+  /* Safari and Chrome */
+  -ms-flex: 1.0;
+  /* Internet Explorer 10 */
+  box-flex: 1.0;
+  display: -moz-box;
+  /* Firefox */
+  display: -webkit-box;
+  /* Safari and Chrome */
+  display: -ms-flexbox;
+  /* Internet Explorer 10 */
+  display: box;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical; }
+
+#side2 {
+  -moz-box-flex: 1.0;
+  /* Firefox */
+  -webkit-box-flex: 1.0;
+  /* Safari and Chrome */
+  -ms-flex: 1.0;
+  /* Internet Explorer 10 */
+  box-flex: 1.0;
+  display: -moz-box;
+  /* Firefox */
+  display: -webkit-box;
+  /* Safari and Chrome */
+  display: -ms-flexbox;
+  /* Internet Explorer 10 */
+  display: box;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical; }
+
+#green {
+  -moz-box-flex: 1.0;
+  /* Firefox */
+  -webkit-box-flex: 1.0;
+  /* Safari and Chrome */
+  -ms-flex: 1.0;
+  /* Internet Explorer 10 */
+  box-flex: 1.0;
+  margin: 10px; }
+
+#yellow {
+  -moz-box-flex: 1.0;
+  /* Firefox */
+  -webkit-box-flex: 1.0;
+  /* Safari and Chrome */
+  -ms-flex: 1.0;
+  /* Internet Explorer 10 */
+  box-flex: 1.0;
+  margin: 10px; }
+
+#red {
+  -moz-box-flex: 1.0;
+  /* Firefox */
+  -webkit-box-flex: 1.0;
+  /* Safari and Chrome */
+  -ms-flex: 1.0;
+  /* Internet Explorer 10 */
+  box-flex: 1.0;
+  margin: 10px; }
+
+#blue {
+  -moz-box-flex: 1.0;
+  /* Firefox */
+  -webkit-box-flex: 1.0;
+  /* Safari and Chrome */
+  -ms-flex: 1.0;
+  /* Internet Explorer 10 */
+  box-flex: 1.0;
+  margin: 10px; }
+
+.greendark {
+  background: url(../images/green_dark.png) center center no-repeat; }
+
+.greenlight {
+  background: url(../images/green_light.png) center center no-repeat; }
+
+.yellowdark {
+  background: url(../images/yellow_dark.png) center center no-repeat; }
+
+.yellowlight {
+  background: url(../images/yellow_light.png) center center no-repeat; }
+
+.reddark {
+  background: url(../images/red_dark.png) center center no-repeat; }
+
+.redlight {
+  background: url(../images/red_light.png) center center no-repeat; }
+
+.bluedark {
+  background: url(../images/blue_dark.png) center center no-repeat; }
+
+.bluelight {
+  background: url(../images/blue_light.png) center center no-repeat; }
+
+.btn {
+  cursor: pointer;
+  display: block; }
+
+/*# sourceMappingURL=styles.css.map */
